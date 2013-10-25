@@ -1,0 +1,6 @@
+#!/bin/sh
+./running.sh |
+while read HOST; do
+	echo "$HOST:"
+	0</dev/null scp "$1" "root@$HOST:$2"
+done
