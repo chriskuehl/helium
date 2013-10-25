@@ -26,7 +26,7 @@ done
 # start the dependencies
 echo "Starting dependencies..."
 
-for c in storage; do
+for c in storage manager; do
 	echo -n "	$c..."
 	start "$c"
 	echo -n " started..."
