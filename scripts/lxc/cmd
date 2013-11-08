@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 ./running |
 while read HOST; do
 	echo "$HOST:"

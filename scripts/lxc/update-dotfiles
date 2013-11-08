@@ -1,2 +1,2 @@
-#!/bin/sh
+#!/bin/bash
 /srv/priv/lxc/cmd "rm -r ~/.dotfiles ~/dotfiles; git clone https://github.com/chriskuehl/dotfiles.git && mv dotfiles .dotfiles && cd ~/.dotfiles && ~/.dotfiles/update.py"
