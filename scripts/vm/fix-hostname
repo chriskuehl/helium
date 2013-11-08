@@ -1,0 +1,6 @@
+#!/bin/sh
+h=$(hostname)
+echo "127.0.0.1 localhost" > /etc/hosts
+echo "127.0.0.1 $h.helium.techxonline.net $h" >> /etc/hosts
+
+sed -i "s/myhostname = localhost/myhostname=$h.helium.techxonline.net/g" /etc/postfix/main.cf
