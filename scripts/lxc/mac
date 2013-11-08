@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "hwaddr" */config
+grep "hwaddr" /srv/priv/lxc/*/config
