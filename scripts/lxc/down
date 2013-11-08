@@ -1,0 +1,2 @@
+#!/bin/sh
+/srv/priv/lxc/cmd shutdown -h now

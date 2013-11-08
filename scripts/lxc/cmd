@@ -1,5 +1,5 @@
 #!/bin/sh
-./running.sh |
+./running |
 while read HOST; do
 	echo "$HOST:"
 	0</dev/null ssh "root@$HOST" "$@"
