@@ -3,6 +3,6 @@ UNAME="$1"
 DATESTAMP=$(date +%Y-%m-%d-%H-%M-%S)
 
 deluser "$1"
-/srv/scripts/update-users.sh
+/srv/scripts/update-users
 
 mv "/home/$1" "/home/deleted-users/$1-$DATESTAMP"

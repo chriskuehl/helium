@@ -1,0 +1,3 @@
+#!/bin/sh
+/srv/scripts/gen-users
+/srv/scripts/copy-users
